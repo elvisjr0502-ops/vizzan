@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vizzan - Sua ponte para o futuro</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4C4AFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: #ededed;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4C4AFF;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .vagas {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #4C4AFF;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+    }
+
+    h2 {
+      color: #4C4AFF;
+    }
+
+    .valores ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .valores li::before {
+      content: "💼 ";
+      margin-right: 5px;
+    }
+
+  </style>
+  <!-- Ícones das redes sociais -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Vizzan</h1>
+    <p>Conectando talentos ao futuro 🚀</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Quem Somos</a>
+    <a href="#vagas">Vagas</a>
+    <a href="#valores">Missão, Visão e Valores</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="section" id="sobre">
+    <h2>Quem Somos</h2>
+    <p>
+      A <strong>Vizzan</strong> é uma consultoria jovem, humana e apaixonada por conectar pessoas a oportunidades. 
+      Acreditamos no poder da transformação profissional e estamos aqui para te ajudar a encontrar o lugar certo para brilhar!
+    </p>
+  </section>
+
+  <section class="section" id="vagas">
+    <h2>🚀 Vagas Abertas</h2>
+
+    <div class="vagas">
+      <h3>Analista de Marketing Digital</h3>
+      <p><strong>Local:</strong> Remoto</p>
+      <p><strong>Requisitos:</strong> Experiência com Meta Ads e Google Ads, criatividade e pensamento analítico.</p>
+      <p><strong>Salário:</strong> R$ 4.000 a R$ 5.500</p>
+    </div>
+
+    <div class="vagas">
+      <h3>Desenvolvedor Front-End</h3>
+      <p><strong>Local:</strong> Híbrido (São Paulo/SP)</p>
+      <p><strong>Requisitos:</strong> React, HTML, CSS, Git, boas práticas de UX.</p>
+      <p><strong>Salário:</strong> R$ 6.000 a R$ 8.000</p>
+    </div>
+
+    <!-- Adicione mais vagas conforme necessário -->
+  </section>
+
+  <section class="section" id="valores">
+    <h2>💡 Missão, Visão e Valores</h2>
+    
+    <h3>Missão</h3>
+    <p>
+      Conectar talentos incríveis a empresas que valorizam pessoas, promovendo crescimento mútuo com empatia e inovação.
+    </p>
+
+    <h3>Visão</h3>
+    <p>
+      Ser referência nacional em recrutamento humanizado e soluções modernas de RH até 2030.
+    </p>
+
+    <h3>Valores</h3>
+    <div class="valores">
+      <ul>
+        <li>Empatia sempre</li>
+        <li>Transparência com propósito</li>
+        <li>Inovação que aproxima</li>
+        <li>Trabalho com paixão</li>
+        <li>Respeito à diversidade</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>📲 Vamos nos conectar!</h2>
+    <p>Siga a <strong>Vizzan</strong> nas redes sociais:</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/vizzanrh" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/vizzanrh" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/vizzanrh" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="mailto:contato@vizzan.com.br"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vizzan. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
